@@ -6,4 +6,4 @@ router.get('/', (req, res) => {
     res.send("Hompage")
 })
 
-module.expert = router
+module.exports = router

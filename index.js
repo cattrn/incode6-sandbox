@@ -15,8 +15,8 @@ app.use(express.static('public'))
 app.set('view engine', 'ejs')
 
 // ROUTES
-// app.use('/users', usersRouter)
-app.use('/', homeRouter)
+ app.use('/users', usersRouter)
+/* app.use('/', homeRouter) */
 // app.use('*', errorRouter)
 
 
