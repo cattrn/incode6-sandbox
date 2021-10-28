@@ -16,7 +16,7 @@ app.set('view engine', 'ejs')
 
 // ROUTES
 // app.use('/users', usersRouter)
-// app.use('/', homeRouter)
+app.use('/', homeRouter)
 // app.use('*', errorRouter)
 
 
