@@ -7,7 +7,7 @@ const port = process.env.DB_PORT
 const database = process.env.DB_DATABASE
 
 // CONNECTION STRING
-const connection = `postgres://${user}:${password}@${host}:{port}/{database}`
+const connection = `postgres://${user}:${password}@${host}:${port}/${database}`
 
 const db = pgp(connection)
 
